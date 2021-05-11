@@ -1,13 +1,13 @@
-### Paradigmas de progrmação
+## Paradigmas de progrmação
 
-#### O que é paradigma?
+### O que é paradigma?
 Um paradigma de programação é definido pela maneira como um determinado programador resolve um certo problema, fornecendo visão e determinando como o programador estrutura e executa este programa.
 
 Os quatro principais paradigmas de programação são: paradigma imperativo, lógico, funcional e orientado a objetos.
 
-#### :books: Bibliografia
+### :books: Bibliografia
 
-##### Bibliografia Básica
+#### Bibliografia Básica
 1. MELO, Ana Cristina Vieira de; SILVA, Flavio Soares Correa da. Princípios de Linguagens de
 Programação. 1a edição. Edgard Blucher, 2003. ISBN-13: 9788521203223
 2. SEBESTA, Robert W. Conceitos de linguagens de programação. 9a. edição. Porto Alegre:
@@ -16,7 +16,7 @@ Bookman, 2011.
 3. TUCKER, A. NOONAN, R, Linguagens de programação: princípios e paradigmas. MacGraw-
 Hill, 2009.
 
-##### Bibliografia Complementar
+#### Bibliografia Complementar
 1. DEITEL, H. M. C++: como programar. 5a.edição. São Paulo: Pearson Prentice Hall, 2006.
 2. DEITEL, Harvey M; DEITEL, Paul J. Java: Como Programar. 8a. edição. São Paulo: Pearson
 Prentice Hall, 2010.
