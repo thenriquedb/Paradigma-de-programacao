@@ -3,9 +3,13 @@
  * de elementos.
 */
 
+tamanho([], Tam) :- Tam is 0.
+tamanho([_ | Tail], Tam) :- tamanho(Tail, Tam_Aux) ,
+   Tam is Tam_Aux + 1 .
+
 % Verifica se duas listas tem o mesmo comprimento
 mesmo_tamanho(L1, L2) :- 
-  length(L1, Length_L1), length(L2, Length_L2) ,
+  tamanho(L1, Length_L1), tamanho(L2, Length_L2) ,
   Length_L1 = Length_L2 .
 
 % Verificar se duas listas são compostas com a's e outra com b's
