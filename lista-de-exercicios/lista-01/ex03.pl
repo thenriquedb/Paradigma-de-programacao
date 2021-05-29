@@ -22,7 +22,7 @@ pais(india, 3, 450) .
 * (população divido pela área).
 */
 densidade(Pais, Densidade) :- pais(Pais, Area, Populacao) , 
-  Densidade is Populacao / Area .
+                              Densidade is Populacao / Area .
 
     
 /*
@@ -44,13 +44,13 @@ diferenca_populacao(Pais1, Pais2, Diferenca) :-
 */
 
 verificar_area(Pais1, Pais2) :- pais(Pais1, Area1, _) , 
-  pais(Pais2, Area2, _) ,
-  (
-    (Area1 > Area2, write('Area do país 1 é maior que o segundo')) ;
-    (Area1 =:= Area2, write('Areas são iguais')) ; 
-    (Area1 =< Area2, write('Area do país 1 é menor que do pais 2')) ; 
-    (Area2 =< Area1, write('Area do país 2 é menor que do pais 1')) 
-  ) . 
+                                pais(Pais2, Area2, _) ,
+                                (
+                                  (Area1 > Area2, write('Area do país 1 é maior que o segundo')) ;
+                                  (Area1 =:= Area2, write('Areas são iguais')) ; 
+                                  (Area1 =< Area2, write('Area do país 1 é menor que do pais 2')) ; 
+                                  (Area2 =< Area1, write('Area do país 2 é menor que do pais 1')) 
+                                ) . 
   % verificar_area(brasil, eua)
   % Areas são iguais
   
