@@ -11,10 +11,14 @@
 -- algoritmo :: (Eq a, Num p, Fractional a, Integral a) => a -> p
 -- calcular :: (Num a, Integral a) => a -> a
 
-calcular :: (Integral a1, Num a2) => a1 -> a2 -> a2
-calcular 1 c = c
-calcular n c
-  | n `mod` 2 == 0 = calcular (n `div` 2) (c + 1)
-  | otherwise = calcular ((n * 3) + 1) (c + 1)
+calculo :: Integral a => a -> a
+calculo n
+  | n `mod` 2 == 0 = (n `div` 2)
+  | otherwise = ((n * 3) + 1)
 
-calcularV2 n = n
+gerarLista :: Integral a => a -> [a]
+gerarLista 1 = [1]
+gerarLista n = n : gerarLista (calculo n)
+
+tamCiclo :: Integral a => a -> Int
+tamCiclo n = length (gerarLista n)
