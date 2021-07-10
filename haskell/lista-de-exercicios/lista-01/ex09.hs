@@ -1,0 +1,7 @@
+-- 9)Dados três comprimentos de lados, verifique se podem formar um
+-- triângulo. Observações: O comprimento de um lado do triângulo é
+-- sempre menor do que a soma dos outros dois. Retorne também o tipo
+-- do triângulo:
+-- Equilátero > Todos lados iguais
+-- Isósceles > Dois lados iguais
+-- Escaleno > Todos os lados diferentes
