@@ -27,5 +27,5 @@ Books, 2002.
 University Press, 2006.
 
 #### :tv: Playlists 
-**[Playlist de Prolog](https://www.youtube.com/watch?v=x_ahRnd1gTI&list=PLZ-Bk6jzsb-OScKa7vhpcQXoU2uxYGaFx&ab_channel=BrunoFerreira)**
-**[Playlist de Haskell](https://www.youtube.com/watch?v=-RcmYsd2Txw&list=PLZ-Bk6jzsb-OUJH392CKjEOKWRoxjSQPc)**
+- **[Playlist de Prolog](https://www.youtube.com/watch?v=x_ahRnd1gTI&list=PLZ-Bk6jzsb-OScKa7vhpcQXoU2uxYGaFx&ab_channel=BrunoFerreira)**
+- **[Playlist de Haskell](https://www.youtube.com/watch?v=-RcmYsd2Txw&list=PLZ-Bk6jzsb-OUJH392CKjEOKWRoxjSQPc)**
